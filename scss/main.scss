@@ -1,0 +1,64 @@
+@import 'variables';
+
+// Reset
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'outfit', cursive;
+    line-height: 1.4;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+p {margin-bottom: 1rem;}
+
+.bg-lightgray {background: $bg-lightgray;}
+
+.bg-grayblue {background: $bg-grayblue;}
+
+.bg-light {background: $bg-light;}
+
+.container {
+    max-width: 1440px;
+    margin: 40px auto;
+    padding: 4rem 2rem;
+
+}
+
+img {
+    width: 99%;
+}
+
+.lead-text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 0 auto;
+
+    img {
+        border-radius: 10px;
+    }
+
+    .body-content {
+        width: 100%;
+        padding: 1rem;
+
+        p {
+            font-size: 15px;
+            color: $bg-grayblue;
+        } 
+    }
+}
