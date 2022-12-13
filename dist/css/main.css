@@ -1,13 +1,12 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-  /* Core Styling */
 body {
   font-family: 'outfit', cursive;
-  line-height: 1.4; }
+  line-height: 1.4;
+  background: #d6e2f0; }
 
 h1 {
   margin-bottom: 1rem; }
@@ -15,7 +14,6 @@ h1 {
 p {
   margin-bottom: 1rem; }
 
-  /* Utility Classes */
 .bg-lightgray {
   background: #d6e2f0; }
 
@@ -25,25 +23,28 @@ p {
 .bg-light {
   background: #ffffff; }
 
+.bg-darkbue {
+  background: #1f3251; }
+
 .container {
   max-width: 1440px;
-  margin: 40px auto;
-  padding: 4rem 2rem; }
+  margin: auto;
+  padding: 4rem 0; }
 
 img {
   width: 99%; }
 
 .lead-text {
   font-weight: 700;
-  font-size: 20px; }
+  font-size: 20px;
+  color: #1f3251; }
 
-/* Card */
 .card {
   text-align: center;
   width: 300px;
   padding: 1rem;
   border-radius: 15px;
-  margin: auto; }
+  margin: 40px auto; }
   .card img {
     border-radius: 10px; }
   .card .body-content {
